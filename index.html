@@ -1,0 +1,40 @@
+
+<html>
+  <head>
+    <title>Degree Tracker</title>
+    <link rel="stylesheet" type="css" href="styles.css">
+    <!-- <script src="https://unpkg.com/web3@1.2.9/dist/web3.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script type="module" src="./node_modules/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <h1>Degree Tracker</h1>
+    <table id="degrees-table">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Field of Study</th>
+        <th>Institution</th>
+        <th>Year Awarded</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td><input id="degree-id" type="text" placeholder="ID" disabled /></td>
+        <td><input id="degree-name" type="text" placeholder="Name" /></td>
+        <td><input id="degree-field-of-study" type="text" placeholder="Field of Study" /></td>
+        <td><input id="degree-institution" type="text" placeholder="Institution" /></td>
+        <td><input id="degree-year-awarded" type="text" placeholder="Year Awarded" /></td>
+        <td>
+          <button id="add-button">Add</button>
+          <button id="update-button" disabled>Update</button>
+          <button id="delete-button" disabled>Delete</button>
+        </td>
+      </tr>
+    </table>
+    
+
+  </body>
+</html>

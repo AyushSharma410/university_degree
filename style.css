@@ -1,0 +1,30 @@
+/* CSS for the interface */
+table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #eee;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    border: none;
+    background-color: #eee;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
